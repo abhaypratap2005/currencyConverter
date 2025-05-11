@@ -1,22 +1,21 @@
-💱 Currency Converter
-A simple, responsive currency converter web app built using React and styled with Tailwind CSS. It allows users to convert from one currency to another using real-time exchange rates fetched from a public API.
+# 💱 Currency Converter
 
-🚀 Live Demo
-👉 https://currency-converter-pearl-delta.vercel.app/
+A simple, responsive currency converter web app built using React and styled with Tailwind CSS. It allows users to convert between different currencies using real-time exchange rates fetched from a public API.
 
-🛠️ Features
-🔄 Convert any amount between two currencies
-🌍 Supports multiple currency types
-🔃 Swap "From" and "To" currencies easily
-💡 Clean UI with responsive design
-📡 Real-time exchange rates using public API
+## 🚀 Live Demo
+👉 [Live Demo](https://currency-converter-pearl-delta.vercel.app/)
 
-🧑‍💻 Tech Stack
-Frontend: React (with hooks like useState, useEffect)
+## 🛠️ Features
+- 🔄 Convert any amount between two currencies
+- 🌍 Supports multiple currency types
+- 🔃 Easily swap "From" and "To" currencies
+- 💡 Clean UI with responsive design
+- 📡 Real-time exchange rates via a public API
 
-Styling: Tailwind CSS
+## 🧑‍💻 Tech Stack
+- **Frontend**: React (with hooks like `useState`, `useEffect`)
+- **Styling**: Tailwind CSS
+- **API**: Fawaz Ahmed's Free Currency API
 
-API: Fawaz Ahmed's Free Currency API
-
-📄 License
+## 📄 License
 This project is licensed under the MIT License.
