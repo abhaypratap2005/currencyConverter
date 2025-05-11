@@ -1,12 +1,22 @@
-# React + Vite
+💱 Currency Converter
+A simple, responsive currency converter web app built using React and styled with Tailwind CSS. It allows users to convert from one currency to another using real-time exchange rates fetched from a public API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Live Demo
+👉 https://currency-converter-pearl-delta.vercel.app/
 
-Currently, two official plugins are available:
+🛠️ Features
+🔄 Convert any amount between two currencies
+🌍 Supports multiple currency types
+🔃 Swap "From" and "To" currencies easily
+💡 Clean UI with responsive design
+📡 Real-time exchange rates using public API
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🧑‍💻 Tech Stack
+Frontend: React (with hooks like useState, useEffect)
 
-## Expanding the ESLint configuration
+Styling: Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+API: Fawaz Ahmed's Free Currency API
+
+📄 License
+This project is licensed under the MIT License.
