@@ -4,10 +4,10 @@ import useCurrencyInfo from './hooks/useCurrencyInfo'
 import './index.css'; 
 
 function App() {
-  const [amount, setAmount] = useState(0)
+  const [amount, setAmount] = useState(" ")
   const [from, setFrom] = useState("usd")
   const [to, setTo] = useState("inr")
-  const [convertedAmount, setConvertedAmount] = useState(0)
+  const [convertedAmount, setConvertedAmount] = useState(" ")
 
   const currencyInfo = useCurrencyInfo(from)
   const options = Object.keys(currencyInfo)
@@ -21,10 +21,11 @@ function App() {
 
   const convert = () => {
     const rate = currencyInfo[to]
-    if (!rate) {
-      alert("Conversion rate not available yet!")
-      return
-    }
+     const numericAmount = parseFloat(amount);
+     if (!rate || isNaN(numericAmount) ) {
+    setConvertedAmount(""); 
+    return;
+  }
     setConvertedAmount((amount * rate).toFixed(2))
   }
 
